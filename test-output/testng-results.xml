@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-31T09:51:07 IST" name="TestNG Regression Suite" finished-at="2022-07-31T09:51:26 IST" duration-ms="19430">
+    <groups>
+    </groups>
+    <test started-at="2022-07-31T09:51:07 IST" name="Google Test" finished-at="2022-07-31T09:51:15 IST" duration-ms="8389">
+      <class name="mytests.GoogleTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:mytests.GoogleTest@6e20b53a]" started-at="2022-07-31T09:51:07 IST" name="setup" finished-at="2022-07-31T09:51:15 IST" duration-ms="8102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:1, instance:mytests.GoogleTest@6e20b53a]" started-at="2022-07-31T09:51:15 IST" name="titleTest" finished-at="2022-07-31T09:51:15 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.GoogleTest@6e20b53a]" started-at="2022-07-31T09:51:15 IST" name="tearDown" finished-at="2022-07-31T09:51:15 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytests.GoogleTest -->
+    </test> <!-- Google Test -->
+    <test started-at="2022-07-31T09:51:07 IST" name="Orange HRM Test" finished-at="2022-07-31T09:51:21 IST" duration-ms="14682">
+      <class name="mytests.OrangeHRMTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:mytests.OrangeHRMTest@1b7cc17c]" started-at="2022-07-31T09:51:07 IST" name="setup" finished-at="2022-07-31T09:51:21 IST" duration-ms="14421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.orangehrm.com/orangehrm-30-day-trial/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:1, instance:mytests.OrangeHRMTest@1b7cc17c]" started-at="2022-07-31T09:51:21 IST" name="titleTest" finished-at="2022-07-31T09:51:21 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="contactSalesLinkTest()[pri:2, instance:mytests.OrangeHRMTest@1b7cc17c]" started-at="2022-07-31T09:51:21 IST" name="contactSalesLinkTest" finished-at="2022-07-31T09:51:21 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactSalesLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.OrangeHRMTest@1b7cc17c]" started-at="2022-07-31T09:51:21 IST" name="tearDown" finished-at="2022-07-31T09:51:21 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytests.OrangeHRMTest -->
+    </test> <!-- Orange HRM Test -->
+    <test started-at="2022-07-31T09:51:07 IST" name="Open cart Test" finished-at="2022-07-31T09:51:26 IST" duration-ms="19430">
+      <class name="mytests.OpenCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:mytests.OpenCartTest@57a3af25]" started-at="2022-07-31T09:51:07 IST" name="setup" finished-at="2022-07-31T09:51:15 IST" duration-ms="8175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://naveenautomationlabs.com/opencart/index.php?route=account/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logoTest()[pri:1, instance:mytests.OpenCartTest@57a3af25]" started-at="2022-07-31T09:51:15 IST" name="logoTest" finished-at="2022-07-31T09:51:15 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method signature="loginNegativeTest()[pri:2, instance:mytests.OpenCartTest@57a3af25]" started-at="2022-07-31T09:51:15 IST" name="loginNegativeTest" finished-at="2022-07-31T09:51:26 IST" duration-ms="10892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method signature="forgotPwdLinkExistTest()[pri:3, instance:mytests.OpenCartTest@57a3af25]" started-at="2022-07-31T09:51:26 IST" name="forgotPwdLinkExistTest" finished-at="2022-07-31T09:51:26 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkExistTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.OpenCartTest@57a3af25]" started-at="2022-07-31T09:51:26 IST" name="tearDown" finished-at="2022-07-31T09:51:26 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytests.OpenCartTest -->
+    </test> <!-- Open cart Test -->
+  </suite> <!-- TestNG Regression Suite -->
+</testng-results>
